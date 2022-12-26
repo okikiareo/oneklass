@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button {
+    font-family: inherit;
+    /* background-color: transparent; */
+}
+
+/* Utility */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Page */
+.page {
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.page-inner {
+    width: 90%;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2em 1.5em;
+    margin: 3rem 0;
+    background-color: #FFFFFF;
+}
+
+.page-image {
+    margin-bottom: 0.2rem;
+    justify-content: center;
+}
+
+.page-title {
+    margin-bottom: 0.5rem;
+}
+
+.page-col {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.page-field {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #6200EE;
+    border-radius: 5px;
+}
+
+.page-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    transform: translateX(-10px);
+}
+
+.page-button {
+    width: 100%;
+    background-color: #6200EE;
+    padding: 0.8em 0;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+}
+
+.page-line {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.page-line::before,
+.page-line::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #6200EE;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-line::before {
+    left: 0;
+}
+
+.page-line::after {
+    right: 0;
+}
+
+.page-link {
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.page-login {
+    text-align: center;
+}
+
+.page-login-dark {
+    font-weight: 700;
+    color: #000000;
+}
