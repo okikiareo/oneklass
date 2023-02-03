@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    /* box-sizing:border-box; */
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(238, 238, 238);
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+}
+.page{
+    margin-top: 1.5em;
+    min-height: 80vh;
+   justify-content: center;
+   
+}
+.inner{
+    background:  #fff; 
+    max-width:  65rem;
+    border-radius: 20px;
+}
+/* First section */
+.nav{ 
+    flex-direction:column;
+    margin:1.5rem;
+}
+.nav img{
+width: 1.6rem;;
+}
+.logo img{
+    width: 2rem !important;
+    background:rgb(44, 51, 63);
+    border-radius: 50%;
+}
+.icons{
+    flex-direction: column;
+    width: 2rem;
+    padding-top: 5.5rem;
+}
+.nav:hover{
+    cursor: pointer;
+}
+.icons  img{
+    padding-top: 1.1rem;
+}
+.settings{
+    padding-top: 9rem;
+}
+/* Second section */
+.projects{
+    background: rgb(243, 242, 242);
+    padding:  1.3rem;
+    
+}
+.pro-head h4{
+font-size: 1.1rem;
+font-weight: 500;
+
+margin-top: -0.3rem;
+/* padding: 0 0 5rem 0; */
+}
+.pro-head{
+    font-size: 1rem;
+    display:flex;
+    justify-content: space-between;
+    gap: 24rem;    
+}
+.pro-head a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    }
+  .pro-head img{
+    width: 1.5rem;
+  }
+
+.box-row{
+    margin-top: 0.7rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.box{
+    background: #fff;
+    padding: 0.7rem;
+    border-radius:  10px;
+    }
+    .box .up{
+        margin-top: -0.9rem;
+    }
+.box a{
+    font-size: 0.6rem;
+    background: rgb(175, 195, 207);
+    padding:  0.1rem 0.3rem;
+    border-radius: 3px;
+}
+.up a{
+    margin-left: 7rem;
+
+}
+.gren a{
+    background-color: rgb(149, 194, 149);
+}
+.orange a{
+background-color: rgb(224, 175, 83);
+}
+.box img{
+    margin-top: -0.5rem;
+    /*  */
+    width:7rem;
+    height:7.5rem;
+}
+.box p{
+/*  */
+    margin-top: -0.5rem;
+    font-size: 0.7rem;
+}
+.h{
+height: 0.8rem;
+}
+.label{
+    margin-top: -1rem;
+}
+/* progress-color  */
+.small-box-row{
+    margin-top: 0.5rem;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.statistics{
+    padding-top:  1rem;
+    
+}
+.small-box{
+    padding: 0.8rem;
+}
+.small-box .p{
+    font-size: 0.7rem;
+}
+
+.green{
+    color: rgb(0, 156, 0);
+    margin-top: -0.3rem;
+}
+.red{
+    color: red;
+    margin-top: -0.3rem;
+}
+.none{
+    margin-top: -0.3rem;
+}
+.shared{
+    padding-top:  1rem;
+}
+.column{
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 0.8rem;
+}
+.doc img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.doc{
+    font-size: 0.7rem;
+    padding: 0.7rem;
+}
+.mid{
+    background-color: rgb(235, 235, 235);
+}
+.doc{
+    gap:1rem;
+}
+.details{
+    width:15rem;
+}
+.info{
+    padding-left:6.5rem;
+}
+.mb{
+    padding-left: 4rem;
+} 
+.meet{
+    background-color: rgb(211, 211, 211);
+    border-radius: 0  10px 0 0;
+}
+.head{
+    margin: 1.3rem;
+    display: flex;
+    
+
+}
+
+.alert{
+ margin-right: 10rem;
+ 
+}
+.user{
+    background: #fff;
+    border-radius: 50%;
+}
+.head .alert{
+    width: 1.4rem;
+    height: 1.3rem;
+}
+.meet .user img{
+padding: 0.3rem;
+width: 1.5rem; 
+} 
+.arrow img{
+width: 1.3rem;
+}
+/* Calendar */
+.cal-row{
+    padding: 0.9em;
+    justify-content: space-between;
+
+ }
+
+.calendar-wrapper {
+    max-width: 280px;
+    font: 100% system-ui;
+  }
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .first-day {
+    grid-column-start: 3;
+  }
+  
+  
+  .day-name {
+    background: #eee;
+    padding: 0.3rem;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+ .days li {
+    padding: 2px;
+  }
+  span{
+    background: rgb(109, 110, 114);
+    border-radius: 10px;
+    padding: 0 0.21rem; 
+    text-align: center; 
+    color: #fff;
+    
+  }
+.meeting  img{
+    width: 15rem;
+    padding: 1rem;
+}
+.team{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-left: 1.2rem;
+    margin-right: 3rem;
+    border-radius: 8px;
+}
+.team {
+    padding: 0.4rem;
+
+}
+.team img{
+    width: 1.5rem;
+    
+}
